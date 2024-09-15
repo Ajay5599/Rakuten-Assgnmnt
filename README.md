@@ -24,5 +24,5 @@ The following tests are included in the Postman request:
 
 ## Repository Link
 
-[Postman Dog CEO API Collection](https://github.com/ajay5599/postman-dog-api-collection)
+https://github.com/Ajay5599/Rakuten/blob/main/Status%20code.postman_collection.json
 
