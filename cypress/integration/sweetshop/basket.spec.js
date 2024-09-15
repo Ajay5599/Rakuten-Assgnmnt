@@ -1,4 +1,3 @@
-// Cypress test file 
 describe('Sweet Shop Basket Tests', () => {
     beforeEach(() => {
         cy.visit('https://sweetshop.netlify.app/');
@@ -34,7 +33,7 @@ describe('Sweet Shop Basket Tests', () => {
     });
 
     it('Verify the total price in GBP is correct', () => {
-        const prices = [10, 20, 15, 30]; // Example prices
+        const prices = [10, 20, 15, 30];
         const quantities = [2, 1, 3, 2];
         let totalPrice = 0;
 
@@ -47,12 +46,10 @@ describe('Sweet Shop Basket Tests', () => {
 
     it('Change the delivery type to Standard Shipping and verify the total price', () => {
         cy.get('[data-cy="delivery-type"]').select('Standard Shipping');
-        const deliveryCost = 5; // Example delivery cost
+        const deliveryCost = 5;
         let totalPrice = 0;
-
-        const prices = [10, 20, 15, 30]; // Example prices
+        const prices = [10, 20, 15, 30];
         const quantities = [2, 1, 3, 2];
-
         prices.forEach((price, index) => {
             totalPrice += price * quantities[index];
         });
