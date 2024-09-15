@@ -25,4 +25,7 @@ The following tests are included in the Postman request:
 ## Repository Link
 
 https://github.com/Ajay5599/Rakuten/blob/main/Status%20code.postman_collection.json
+<<<<<<< HEAD
 
+=======
+>>>>>>> 62ccf41d4594eae46ba46cbaf8e5b23afc575f6e
